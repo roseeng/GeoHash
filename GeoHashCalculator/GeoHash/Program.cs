@@ -38,7 +38,7 @@ namespace GeoHash
 
         static void Usage()
         {
-            Console.WriteLine("Uasage: geohash lat long <yyyy-mm-dd>");
+            Console.WriteLine("Usage:  geohash lat long <yyyy-mm-dd>");
             Console.WriteLine("where   lat, long is integer e.g 59 12");
             Console.WriteLine("        long is positive east of Greenwich");
             Console.WriteLine("        if date is omitted, use current");

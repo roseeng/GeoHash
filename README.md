@@ -17,12 +17,15 @@ It is written to be simple to reuse (just ~~steal~~copy the files geohash.cs and
 The command-line tool works like this:
 
 ```
-geohash lat long <yyyy-mm-dd>
+        geohash lat long <yyyy-mm-dd>
   
 where   lat, long is integer e.g 59 12
         long is positive east of Greenwich
         if date is omitted, use current
+
 or
-        geohash -g <yyyy-mm-dd> for globalhash
+        geohash -g <yyyy-mm-dd> 
+        
+        for globalhash
         if date is omitted, use current
 ```
